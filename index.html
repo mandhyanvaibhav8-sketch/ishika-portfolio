@@ -320,7 +320,16 @@
             .about { flex-direction: column; }
             .stack-container-about { width: 100%; height: 400px; }
             .photo-stack { width: 280px; height: 360px; }
-            nav ul {
+        
+            
+            .stats-row { justify-content: center; }
+        }
+        /* Go to the bottom of your <style> section */
+
+@media (max-width: 768px) {
+    
+    /* 1. This makes sure the menu allows scrolling/spacing */
+    nav ul {
         padding-bottom: 80px !important; /* Adds empty space at the bottom of the menu list */
     }
 
@@ -329,9 +338,7 @@
         margin-bottom: 50px !important; /* Pushes the bottom edge away */
         display: inline-block;
     }
-            
-            .stats-row { justify-content: center; }
-        }
+}
     </style>
 </head>
 <body>
@@ -574,6 +581,7 @@
     </script>
 </body>
 </html>
+
 
 
 
